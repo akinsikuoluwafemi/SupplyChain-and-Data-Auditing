@@ -1,0 +1,74 @@
+Project Write-up
+Introduction
+The goal of this project is to develop a decentralized application (DApp) for managing the supply chain of coffee using Ethereum smart contracts. The supply chain involves various actors such as farmers, distributors, retailers, and consumers. The smart contracts will facilitate permission controls and ensure the authenticity of the coffee products.
+
+
+
+Class Diagram: https://lucid.app/lucidchart/4060bbec-421c-442f-b7f1-34ccaffdb87e/edit?viewport_loc=-486%2C-119%2C1280%2C1021%2C0_0&invitationId=inv_cb79c704-2227-41b0-9e9f-2b54ae2e6682
+
+Activity and State Diagrams: 
+https://lucid.app/lucidchart/534586d8-a886-4506-8464-49f6012dd2ed/edit?invitationId=inv_db0a3b02-a62a-4c34-90bf-a2ab09046d6a
+
+Sequence Diagrams:
+https://lucid.app/lucidchart/c219f369-52b5-45d2-b93e-b61966963600/edit?viewport_loc=-1200%2C-841%2C2837%2C2022%2C0_0&invitationId=inv_e6dd5ff3-94fd-4a9d-9480-2acd7033d9fe
+
+
+
+
+
+
+Part 1: Plan the Project
+Requirement 1: Project write-up - UML
+In the initial phase of the project, Unified Modeling Language (UML) diagrams were created to outline the structure and relationships between different components. The UML diagrams include:
+
+1.1 Class Diagram:
+Depicts the classes such as Farmer, Distributor, Retailer, and Consumer with their attributes and methods.
+Shows relationships and associations between these classes.
+
+1.2 Sequence Diagram:
+Illustrates the interactions and message flow between actors during the supply chain process.
+Highlights the order of execution and communication steps.
+
+1.3 State Diagram:
+Represents the different states of a product (e.g., planted, harvested, distributed) and transitions between these states.
+
+1.4 Activity Diagram:
+Outlines the workflow and activities performed by each actor in the supply chain.
+Any changes made during the contract creation process have been incorporated into the UML diagrams to ensure accuracy and consistency.
+
+Requirement 2: Project write-up - Libraries
+The project utilizes specific libraries to enhance its functionality and efficiency. The chosen libraries include:
+.
+2.1 Truffle Suite:
+Truffle is used for development, testing, and deployment of Ethereum smart contracts. It streamlines the development process by providing a framework and tools.
+
+2.2 Web3.js:
+Web3.js is employed for interacting with the Ethereum blockchain from the frontend. It allows seamless integration between the user interface and smart contracts.
+The adoption of these libraries is motivated by their reputation for security, reliability, and widespread community support.
+
+2.3 @metamask/detect-provider:
+This library is used to detect the MetaMask provider and enable the user to connect to the Ethereum blockchain.
+
+Requirement 3: Project write-up - IPFS
+The InterPlanetary File System (IPFS) is integrated into the project to address decentralized storage and content addressing. IPFS is employed in the following ways:
+
+3.1 Product Information Storage:
+Product details such as origin, batch, and certifications are stored on IPFS. This ensures transparency and immutability of product information.
+
+3.2 Authenticity Verification:
+Hashes of important product data are stored on IPFS, enabling consumers to verify the authenticity of a product by comparing its hash with the one stored on the decentralized IPFS network.
+
+3.3 Decentralized File Storage:
+Documents such as certifications and quality reports are stored on IPFS, ensuring accessibility and integrity throughout the supply chain.
+The utilization of IPFS enhances data integrity, security, and decentralization within the supply chain.
+
+General Project Write-up
+
+Link to Sepolia Etherscan: https://sepolia.etherscan.io/address/0x074f9241b60987926c7cafb6cbe6f7444827fb38
+
+Contract Address on Sepolia: 0x074f9241b60987926c7cafb6cbe6f7444827fb38
+
+Transaction Hash: 0xdfd0c4c1b93816bc213efbe976a5fbd39dc503b391e10aaa6eb12305fa84d5a0 (buy Item)
+
+Conclusion
+This project aims to create a robust and transparent coffee supply chain solution using Ethereum smart contracts. The combination of UML diagrams, carefully selected libraries, and IPFS integration ensures a comprehensive and effective DApp for all actors involved in the supply chain.
