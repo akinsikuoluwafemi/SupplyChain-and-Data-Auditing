@@ -1,0 +1,84 @@
+body {
+  background-color: #fff;
+  padding: 2em;
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  color: #212121;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+input {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 10px 0;
+}
+
+button {
+  cursor: pointer;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  background-color: #00bcd4;
+  font-size: 16px;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.disabled-button {
+  background-color: #ccc; /* Background color when disabled */
+  color: #666; /* Text color when disabled */
+  cursor: not-allowed; /* Change cursor to indicate not allowed */
+  opacity: 0.7; /* Opacity to visually indicate disabled state */
+  /* You can add more styles as needed */
+}
+
+.sell {
+  background-color: white;
+  color: #d1c4e9;
+}
+
+.ftc-intro {
+  background-color: #0097a7;
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+.form-group {
+  background-color: #0097a7;
+  color: black;
+  width: 80%;
+  padding: 30px;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+.form-break {
+  background-color: #fff;
+  color: white;
+  width: 100%;
+  padding: 5px;
+}
+
+.horizontal-rule {
+  background-color: #bdbdbd;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.right {
+  width: 100%;
+}
